@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{B3921B48-A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jeuxdontonestleheros.Backoffice.WEB.UI", "jeuxdontonestleheros.Backoffice.WEB.UI\jeuxdontonestleheros.Backoffice.WEB.UI.csproj", "{C27AFAAE-6CE2-487E-99C4-4FD87C526BDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesqPremiersTestsAvecEntityCodeFirst", "MesqPremiersTestsAvecEntityCodeFirst\MesqPremiersTestsAvecEntityCodeFirst.csproj", "{502B7CB7-6A74-4A18-B0A4-0A478A55284D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{C27AFAAE-6CE2-487E-99C4-4FD87C526BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C27AFAAE-6CE2-487E-99C4-4FD87C526BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C27AFAAE-6CE2-487E-99C4-4FD87C526BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502B7CB7-6A74-4A18-B0A4-0A478A55284D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502B7CB7-6A74-4A18-B0A4-0A478A55284D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502B7CB7-6A74-4A18-B0A4-0A478A55284D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502B7CB7-6A74-4A18-B0A4-0A478A55284D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{AC3FD7F7-E427-4B98-BF53-AC97AB1E6691} = {D09F66CE-9A88-43AC-AA29-B8840E494158}
 		{7CCD6E90-4DB4-4F69-A075-6CEE821CF136} = {D09F66CE-9A88-43AC-AA29-B8840E494158}
 		{E8346BF7-D7F4-4466-B6CB-441CA4FF0C4B} = {B3921B48-A862-44ED-AEFF-808FBDB1BD35}
+		{502B7CB7-6A74-4A18-B0A4-0A478A55284D} = {D09F66CE-9A88-43AC-AA29-B8840E494158}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52E4DDC2-5B50-4C7C-A88B-ABF06BDC9498}
