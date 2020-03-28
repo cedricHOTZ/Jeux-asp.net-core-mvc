@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29820.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMvcCore", "WebMvcCore\WebMvcCore.csproj", "{AC3FD7F7-E427-4B98-BF53-AC97AB1E6691}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebMvcCore", "WebMvcCore\WebMvcCore.csproj", "{AC3FD7F7-E427-4B98-BF53-AC97AB1E6691}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exemples", "Exemples", "{D09F66CE-9A88-43AC-AA29-B8840E494158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeuxdontestlehero.Web.UI", "Jeuxdontestlehero.Web.UI\Jeuxdontestlehero.Web.UI.csproj", "{58050299-6842-415C-81A4-749EB5ED7A2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jeuxdontestlehero.Web.UI", "Jeuxdontestlehero.Web.UI\Jeuxdontestlehero.Web.UI.csproj", "{58050299-6842-415C-81A4-749EB5ED7A2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouvertForEach", "DecouvertForEach\DecouvertForEach.csproj", "{7CCD6E90-4DB4-4F69-A075-6CEE821CF136}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecouvertForEach", "DecouvertForEach\DecouvertForEach.csproj", "{7CCD6E90-4DB4-4F69-A075-6CEE821CF136}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jeudontonestleheros.Core.Data", "jeudontonestleheros.Core.Data\jeudontonestleheros.Core.Data.csproj", "{E8346BF7-D7F4-4466-B6CB-441CA4FF0C4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jeudontonestleheros.Core.Data", "jeudontonestleheros.Core.Data\jeudontonestleheros.Core.Data.csproj", "{E8346BF7-D7F4-4466-B6CB-441CA4FF0C4B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{B3921B48-A862-44ED-AEFF-808FBDB1BD35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jeuxdontonestleheros.Backoffice.WEB.UI", "jeuxdontonestleheros.Backoffice.WEB.UI\jeuxdontonestleheros.Backoffice.WEB.UI.csproj", "{C27AFAAE-6CE2-487E-99C4-4FD87C526BDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jeuxdontonestleheros.Backoffice.WEB.UI", "jeuxdontonestleheros.Backoffice.WEB.UI\jeuxdontonestleheros.Backoffice.WEB.UI.csproj", "{C27AFAAE-6CE2-487E-99C4-4FD87C526BDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesqPremiersTestsAvecEntityCodeFirst", "MesqPremiersTestsAvecEntityCodeFirst\MesqPremiersTestsAvecEntityCodeFirst.csproj", "{502B7CB7-6A74-4A18-B0A4-0A478A55284D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MesqPremiersTestsAvecEntityCodeFirst", "MesqPremiersTestsAvecEntityCodeFirst\MesqPremiersTestsAvecEntityCodeFirst.csproj", "{502B7CB7-6A74-4A18-B0A4-0A478A55284D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentification", "Authentification", "{F7150652-1ECD-497B-AB3A-24DE1BE83B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAuthentificationFacebook", "TestAuthentificationFacebook\TestAuthentificationFacebook.csproj", "{1EE97A76-BE02-40AB-895D-4FBE57A03C2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{502B7CB7-6A74-4A18-B0A4-0A478A55284D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{502B7CB7-6A74-4A18-B0A4-0A478A55284D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{502B7CB7-6A74-4A18-B0A4-0A478A55284D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE97A76-BE02-40AB-895D-4FBE57A03C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE97A76-BE02-40AB-895D-4FBE57A03C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE97A76-BE02-40AB-895D-4FBE57A03C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE97A76-BE02-40AB-895D-4FBE57A03C2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +66,8 @@ Global
 		{7CCD6E90-4DB4-4F69-A075-6CEE821CF136} = {D09F66CE-9A88-43AC-AA29-B8840E494158}
 		{E8346BF7-D7F4-4466-B6CB-441CA4FF0C4B} = {B3921B48-A862-44ED-AEFF-808FBDB1BD35}
 		{502B7CB7-6A74-4A18-B0A4-0A478A55284D} = {D09F66CE-9A88-43AC-AA29-B8840E494158}
+		{F7150652-1ECD-497B-AB3A-24DE1BE83B61} = {D09F66CE-9A88-43AC-AA29-B8840E494158}
+		{1EE97A76-BE02-40AB-895D-4FBE57A03C2E} = {F7150652-1ECD-497B-AB3A-24DE1BE83B61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52E4DDC2-5B50-4C7C-A88B-ABF06BDC9498}

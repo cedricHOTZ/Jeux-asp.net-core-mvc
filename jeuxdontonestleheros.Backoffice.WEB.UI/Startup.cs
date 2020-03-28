@@ -10,13 +10,26 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using IHostingEnvironment = Microsoft.Extensions.Hosting.IHostingEnvironment;
+
 namespace jeuxdontonestleheros.Backoffice.WEB.UI
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        [Obsolete]
+        public Startup(IHostingEnvironment env)
         {
-            Configuration = configuration;
+            var builder = new ConfigurationBuilder()
+                           .SetBasePath(env.ContentRootPath)
+                           .AddJsonFile("appsettings.json",
+                           optional: false,
+                           reloadOnChange: true)
+                           .AddEnvironmentVariables();
+            if (env.IsDevelopment())
+            {
+                builder.AddUserSecrets<Startup>();
+            }
+            Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -25,8 +38,17 @@ namespace jeuxdontonestleheros.Backoffice.WEB.UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            //connect BDD
-            string connectionString = this.Configuration.GetConnectionString("DefaultContext");
+
+            services.AddAuthentication().AddFacebook(options =>
+            {
+
+                options.AppId = this.Configuration["Apis:Facebook:AppId"];
+                options.AppSecret = this.Configuration["Apis:Facebook:AppSecret"];
+            });
+        
+
+        //connect BDD
+        string connectionString = this.Configuration.GetConnectionString("DefaultContext");
             services.AddDbContext<DefaultContext>(options => options.UseSqlServer(connectionString));
         }
 
@@ -47,11 +69,25 @@ namespace jeuxdontonestleheros.Backoffice.WEB.UI
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            //login
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
+                //login
+                endpoints.MapControllers();
+                endpoints.MapRazorPages();
+
+                endpoints.MapControllerRoute(
+                    name: "mesaventures",
+                    pattern: "mes-aventures",
+                    defaults: new
+                    {
+                        controller = "Aventure",
+                        action = "Index"
+                    });
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
