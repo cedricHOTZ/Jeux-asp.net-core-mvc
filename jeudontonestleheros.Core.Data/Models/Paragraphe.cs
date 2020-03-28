@@ -12,10 +12,13 @@ namespace jeudontonestleheros.Core.Data.Models
     {
         [Key]
         public int Id { get; set; }
+        [Range(1,999999, ErrorMessage ="Le numéro est requis")]
         public int Numero { get; set; }
 
+        [Required(AllowEmptyStrings =false,ErrorMessage ="Le titre est requis")]
         public string Titre { get; set; }
 
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Le description est requis")]
         public string Description { get; set; }
 
         //Question du paragraphe

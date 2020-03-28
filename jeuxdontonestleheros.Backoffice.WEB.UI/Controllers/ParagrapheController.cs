@@ -28,9 +28,12 @@ namespace jeuxdontonestleheros.Backoffice.WEB.UI.Controllers
         [HttpPost]
         public IActionResult Create(Paragraphe paragraphe)
         {
-            this._context.Paragraphes.Add(paragraphe);
-            this._context.SaveChanges();
-
+            //Vérification avant enregistrement en BDD
+            if (this.ModelState.IsValid)
+            {
+                this._context.Paragraphes.Add(paragraphe);
+                this._context.SaveChanges();
+            }
             return this.View();
         }
         public IActionResult Edit(int id)

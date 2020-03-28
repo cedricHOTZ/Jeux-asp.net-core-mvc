@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentification", "Authent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAuthentificationFacebook", "TestAuthentificationFacebook\TestAuthentificationFacebook.csproj", "{1EE97A76-BE02-40AB-895D-4FBE57A03C2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteValidateur", "DecouverteValidateur\DecouverteValidateur.csproj", "{5306D998-8877-4D5C-B7CA-3F9C9735E7F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{1EE97A76-BE02-40AB-895D-4FBE57A03C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EE97A76-BE02-40AB-895D-4FBE57A03C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EE97A76-BE02-40AB-895D-4FBE57A03C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5306D998-8877-4D5C-B7CA-3F9C9735E7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5306D998-8877-4D5C-B7CA-3F9C9735E7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5306D998-8877-4D5C-B7CA-3F9C9735E7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5306D998-8877-4D5C-B7CA-3F9C9735E7F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{502B7CB7-6A74-4A18-B0A4-0A478A55284D} = {D09F66CE-9A88-43AC-AA29-B8840E494158}
 		{F7150652-1ECD-497B-AB3A-24DE1BE83B61} = {D09F66CE-9A88-43AC-AA29-B8840E494158}
 		{1EE97A76-BE02-40AB-895D-4FBE57A03C2E} = {F7150652-1ECD-497B-AB3A-24DE1BE83B61}
+		{5306D998-8877-4D5C-B7CA-3F9C9735E7F7} = {D09F66CE-9A88-43AC-AA29-B8840E494158}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52E4DDC2-5B50-4C7C-A88B-ABF06BDC9498}

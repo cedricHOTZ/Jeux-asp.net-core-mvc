@@ -197,3 +197,7 @@ C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\obj\Debug\netcoreapp3.1\jeuxdontonestleheros.Backoffice.WEB.UI.csproj.CoreCompileInputs.cache
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\obj\Debug\netcoreapp3.1\jeuxdontonestleheros.Backoffice.WEB.UI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\obj\Debug\netcoreapp3.1\jeuxdontonestleheros.Backoffice.WEB.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll

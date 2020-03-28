@@ -109,17 +109,13 @@
           "Microsoft.CSharp.Reference": "4.0.0.0",
           "Microsoft.Extensions.Configuration.CommandLine": "3.1.0.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "3.1.0.0",
-          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.0.0",
           "Microsoft.Extensions.Configuration.Ini": "3.1.0.0",
-          "Microsoft.Extensions.Configuration.Json": "3.1.0.0",
           "Microsoft.Extensions.Configuration.KeyPerFile": "3.1.0.0",
           "Microsoft.Extensions.Configuration.UserSecrets": "3.1.0.0",
           "Microsoft.Extensions.Configuration.Xml": "3.1.0.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "3.1.0.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "3.1.0.0",
           "Microsoft.Extensions.FileProviders.Composite": "3.1.0.0",
-          "Microsoft.Extensions.FileProviders.Physical": "3.1.0.0",
-          "Microsoft.Extensions.FileSystemGlobbing": "3.1.0.0",
           "Microsoft.Extensions.Hosting.Abstractions": "3.1.0.0",
           "Microsoft.Extensions.Hosting": "3.1.0.0",
           "Microsoft.Extensions.Http": "3.1.0.0",
@@ -856,6 +852,36 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.FileExtensions/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.3",
+          "Microsoft.Extensions.FileProviders.Physical": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.3",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/3.1.3": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3"
@@ -907,6 +933,32 @@
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Embedded.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.1",
+          "Microsoft.Extensions.FileSystemGlobbing": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/3.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
       "Microsoft.Extensions.Identity.Core/3.1.1": {
@@ -2239,7 +2291,10 @@
       },
       "jeudontonestleheros.Core.Data/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.3"
+          "Microsoft.EntityFrameworkCore": "3.1.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.1",
+          "Microsoft.Extensions.Configuration.Json": "3.1.1"
         },
         "runtime": {
           "jeudontonestleheros.Core.Data.dll": {}
@@ -2716,21 +2771,9 @@
         },
         "compileOnly": true
       },
-      "Microsoft.Extensions.Configuration.FileExtensions/3.1.0.0": {
-        "compile": {
-          "Microsoft.Extensions.Configuration.FileExtensions.dll": {}
-        },
-        "compileOnly": true
-      },
       "Microsoft.Extensions.Configuration.Ini/3.1.0.0": {
         "compile": {
           "Microsoft.Extensions.Configuration.Ini.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.Extensions.Configuration.Json/3.1.0.0": {
-        "compile": {
-          "Microsoft.Extensions.Configuration.Json.dll": {}
         },
         "compileOnly": true
       },
@@ -2767,18 +2810,6 @@
       "Microsoft.Extensions.FileProviders.Composite/3.1.0.0": {
         "compile": {
           "Microsoft.Extensions.FileProviders.Composite.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.Extensions.FileProviders.Physical/3.1.0.0": {
-        "compile": {
-          "Microsoft.Extensions.FileProviders.Physical.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.Extensions.FileSystemGlobbing/3.1.0.0": {
-        "compile": {
-          "Microsoft.Extensions.FileSystemGlobbing.dll": {}
         },
         "compileOnly": true
       },
@@ -4009,6 +4040,20 @@
       "path": "microsoft.extensions.configuration.binder/3.1.3",
       "hashPath": "microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512"
     },
+    "Microsoft.Extensions.Configuration.FileExtensions/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cIus40AOCE1uItTS8/RAsHQo3iFYZcq3QqKLvmvxXYA+X2jxCgn2sVLqyyC6ZzJ4KpIizrDCJb8zKotmUyuvGQ==",
+      "path": "microsoft.extensions.configuration.fileextensions/3.1.1",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bU7Bub4Fn9MN2+CiYCOINU09l8b20eDEGsHuQyQ958RmDszCL0lt2QtEtMWVN98wmaJM1+n4UjFHyzF0wQ6SJQ==",
+      "path": "microsoft.extensions.configuration.json/3.1.1",
+      "hashPath": "microsoft.extensions.configuration.json.3.1.1.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection/3.1.3": {
       "type": "package",
       "serviceable": true,
@@ -4036,6 +4081,20 @@
       "sha512": "sha512-+yygkjo94EkMggtsBkj/W3/OR/QTXrP+iGSrz3MkJJsd/lRJ3PrENeEkOowfqCAKg/U0AMJroAqI7U4g7i/+9w==",
       "path": "microsoft.extensions.fileproviders.embedded/3.1.1",
       "hashPath": "microsoft.extensions.fileproviders.embedded.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HF9OUt3wMO+pyCXTlAYSnEkz3YlHNQbiximdroRQIcuVUzJIjZyJ5KCAr3WfshUHkhjrrUMDUCH5QUeb3HbCUw==",
+      "path": "microsoft.extensions.fileproviders.physical/3.1.1",
+      "hashPath": "microsoft.extensions.fileproviders.physical.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-44k6cg7VHzDFylfkPUjPPAThEI2M5rtw+dm4+PuKbjuFHg5W/kE+FDRrQKUN8LLIGAdpeD9Jkqm/NNWtksv3NA==",
+      "path": "microsoft.extensions.filesystemglobbing/3.1.1",
+      "hashPath": "microsoft.extensions.filesystemglobbing.3.1.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Identity.Core/3.1.1": {
       "type": "package",
@@ -5321,17 +5380,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.Configuration.FileExtensions/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Microsoft.Extensions.Configuration.Ini/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Extensions.Configuration.Json/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5362,16 +5411,6 @@
       "sha512": ""
     },
     "Microsoft.Extensions.FileProviders.Composite/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Extensions.FileProviders.Physical/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Extensions.FileSystemGlobbing/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
