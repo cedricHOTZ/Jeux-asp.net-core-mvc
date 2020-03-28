@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace jeudontonestleheros.Core.Data.Models
 {
+    //Table en BDD
     [Table("Paragraphe")]
     public class Paragraphe
     {
+        [Key]
         public int Id { get; set; }
         public int Numero { get; set; }
 
@@ -16,7 +19,7 @@ namespace jeudontonestleheros.Core.Data.Models
         public string Description { get; set; }
 
         //Question du paragraphe
-        [NotMapped]
+       
         public Question MaQuestion { get; set; }
     }
 }

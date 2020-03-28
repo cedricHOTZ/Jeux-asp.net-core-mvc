@@ -6,4 +6,9 @@ C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\ob
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\obj\Debug\netcoreapp3.1\jeudontonestleheros.Core.Data.AssemblyInfo.cs
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\obj\Debug\netcoreapp3.1\jeudontonestleheros.Core.Data.dll
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\obj\Debug\netcoreapp3.1\jeudontonestleheros.Core.Data.pdb
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\bin\Debug\netcoreapp3.1\jeudontonestleheros.Core.Data.runtimeconfig.json
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\bin\Debug\netcoreapp3.1\jeudontonestleheros.Core.Data.runtimeconfig.dev.json
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\obj\Debug\netcoreapp3.1\jeudontonestleheros.Core.Data.genruntimeconfig.cache
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\obj\Debug\netcoreapp3.1\jeudontonestleheros.Core.Data.csproj.CoreCompileInputs.cache
