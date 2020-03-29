@@ -22,6 +22,11 @@ namespace jeudontonestleheros.Core.Data
 
         public DbSet<Paragraphe> Paragraphes { get; set; }
 
+        public DbSet<Question> Questions { get; set; }
+
+        public DbSet<Reponse> Reponses { get; set; }
+
+
 
     }
 }

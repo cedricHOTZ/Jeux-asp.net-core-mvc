@@ -80,6 +80,14 @@ namespace jeuxdontonestleheros.Backoffice.WEB.UI
                 endpoints.MapRazorPages();
 
                 endpoints.MapControllerRoute(
+                   name: "edition-paragraphe",
+                   pattern: "edition-paragraphe/{id}",
+                   defaults: new { controller = "Paragraphe", action = "Edit" },
+                   //regex pour ne pas pouvoir metttre une lettre à la place de l'id dans l'url
+                   constraints: new { id = @"\d+" });
+                   
+
+                endpoints.MapControllerRoute(
                     name: "mesaventures",
                     pattern: "mes-aventures",
                     defaults: new

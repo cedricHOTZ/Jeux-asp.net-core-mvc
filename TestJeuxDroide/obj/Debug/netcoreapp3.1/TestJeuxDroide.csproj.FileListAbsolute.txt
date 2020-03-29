@@ -1,0 +1,3 @@
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\TestJeuxDroide\bin\Debug\netcoreapp3.1\Exemple.Jedi.dll
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\TestJeuxDroide\obj\Debug\netcoreapp3.1\TestJeuxDroide.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\TestJeuxDroide\obj\Debug\netcoreapp3.1\TestJeuxDroide.AssemblyInfo.cs

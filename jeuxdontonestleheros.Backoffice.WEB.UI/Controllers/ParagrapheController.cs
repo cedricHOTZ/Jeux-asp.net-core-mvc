@@ -28,7 +28,7 @@ namespace jeuxdontonestleheros.Backoffice.WEB.UI.Controllers
         [HttpPost]
         public IActionResult Create(Paragraphe paragraphe)
         {
-            //Vérification avant enregistrement en BDD
+            //Vérification avant enregistrement en BDD coté server 
             if (this.ModelState.IsValid)
             {
                 this._context.Paragraphes.Add(paragraphe);

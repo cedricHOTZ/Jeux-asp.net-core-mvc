@@ -12,3 +12,4 @@ C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\ob
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\obj\Debug\netcoreapp3.1\jeudontonestleheros.Core.Data.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeudontonestleheros.Core.Data\bin\Debug\netcoreapp3.1\Models\Question.cs

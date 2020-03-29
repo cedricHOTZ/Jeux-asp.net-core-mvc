@@ -201,3 +201,6 @@ C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\obj\Debug\netcoreapp3.1\Razor\Views\Question\Add.cshtml.g.cs
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\bin\Debug\netcoreapp3.1\Models\Question.cs
+C:\Users\Utilisateur\Documents\Asp.net\jeuxHero\jeuxdontonestleheros.Backoffice.WEB.UI\obj\Debug\netcoreapp3.1\Razor\Views\Proposition\Add.cshtml.g.cs
